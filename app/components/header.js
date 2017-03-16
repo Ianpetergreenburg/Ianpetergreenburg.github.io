@@ -4,8 +4,8 @@ var styles = require('../styles')
 var Header = React.createClass({
   render: function(){
     return(
-        <div className="navbar" style={styles.header}>
-          <h1>Clever Title</h1>
+        <div style={styles.header}>
+          <h1 style={styles.headerText}>Ian Peter Greenburg</h1>
         </div>
       )
   }
