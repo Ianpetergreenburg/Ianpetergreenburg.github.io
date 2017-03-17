@@ -3,10 +3,12 @@ var Header = require('./header')
 var styles = require('../styles')
 
 var Home = React.createClass({
+
   render: function(){
+    console.log(window)
     return(
-        <div style={styles.home}>
-          Home Component
+        <div>
+          <img src='' />
         </div>
       )
   }

@@ -6,11 +6,17 @@ var hashHistory = ReactRouter.hashHistory
 var IndexRoute = ReactRouter.IndexRoute
 var Main = require('../components/Main')
 var Home = require('../components/Home')
+var About = require('../components/About')
+var Contact = require('../components/Contact')
+var Projects = require('../components/Projects')
 
 var routes = (
   <Router history={hashHistory}>
     <Route path='/' component={Main}>
       <IndexRoute component={Home} />
+      <Route path='/about' component={About} />
+      <Route path='/contact' component={Contact} />
+      <Route path='/projects' component={Projects} />
     </Route>
   </Router>
 )
