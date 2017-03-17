@@ -5,7 +5,7 @@ var Link = require('react-router').Link
 function DropDown (props) {
   return(
       <div className="dropdown" style={styles.dropdown}>
-        <button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">More Pages <span className="caret"> </span></button>
+        <button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" style={styles.dropdownButton}>More Pages <span className="caret"> </span></button>
         <ul className="dropdown-menu">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About Ian</Link></li>

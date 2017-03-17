@@ -6,13 +6,13 @@ var Dropdown = require('./dropdown')
 var Header = React.createClass({
   render: function(){
     return(
-        <div style={styles.header}>
-          <div style={styles.headerBlock}>
-            <Logo height={60}/>
-            <h1 style={styles.headerText}>Ian Peter Greenburg</h1>
+          <div style={styles.header}>
+            <div style={styles.headerBlock}>
+              <Logo height={40}/>
+              <h1 style={styles.headerText}>IPG</h1>
+              <Dropdown />
+            </div>
           </div>
-          <Dropdown />
-        </div>
       )
   }
 })
